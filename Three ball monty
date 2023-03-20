@@ -1,0 +1,13 @@
+def guessing_game():
+  ball_list = [" ","O"," "]
+  ball = "O"
+  sama = (int(input("Enter your guess in the form of index (Guess either 0 or 1 or 2 ")))
+  def shuffle_list(ball_list):
+    shuffle(ball_list)
+    return ball_list
+  shuffled_ball = shuffle_list(ball_list)
+  if ball == shuffled_ball[sama]:
+    print ("You found the ball")
+  else:
+    print("you lost")
+    print(shuffled_ball) 
