@@ -7,5 +7,5 @@ while True:
   elif len(names) == 2:
     print('{} and {} have liked it'.format(names[0],names[1]))
   elif len(names) > 2:
-    print(len(names) , " prople have liked it")
+    print(len(names) , " people have liked it")
   
