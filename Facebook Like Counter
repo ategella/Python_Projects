@@ -1,0 +1,11 @@
+names = []
+
+while True:
+  names.append(input("Enter name"))
+  if len(names) == 1:
+    print(names[0]+" has liked it")
+  elif len(names) == 2:
+    print('{} and {} have liked it'.format(names[0],names[1]))
+  elif len(names) > 2:
+    print(len(names) , " prople have liked it")
+  
